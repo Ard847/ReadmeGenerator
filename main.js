@@ -94,6 +94,6 @@ const generate = (answers) => {
     console.log("answers", answers)
     const readme = generate(answers)
     console.log("README",readme)
-    fs.writeFileSync("READ.md",readme)
+    fs.writeFileSync("README.md",readme)
 }).catch( (e) =>{ console.log(e)})
  

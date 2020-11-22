@@ -12,7 +12,7 @@ Generate a readme and you can see how it works in https://drive.google.com/file/
 * [License](#license)
 
 ## Installation 
-first run `npm install` in order to install the following npm package dependencies as specified in the `package.json`:  * [`inquirer`](https://www.npmjs.com/package/inquirer) that will prompt you for your inputs from the command line
+Run `npm install` in order to install the following npm package dependencies as specified in the `package.json`:  * [`inquirer`](https://www.npmjs.com/package/inquirer) that will prompt you for your inputs from the command line
 
 ## Usage  
 In terminal use "node main"

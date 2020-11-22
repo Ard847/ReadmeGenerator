@@ -54,37 +54,37 @@ inquirer.prompt([{
 
 const generate = (answers) => {
     return `
-    #Project title: ${answers.title}
+#Project title: ${answers.title}
  
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ##Table of contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contribution](#Contribution)
-    * [Test](#Test)
-    * [License](#license)
+##Table of contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#Contribution)
+* [Test](#Test)
+* [License](#license)
 
-    ##installation 
-    ${answers.instructions}
+##installation 
+${answers.instructions}
 
-    ##Usage  
-    ${answers.usage}
+##Usage  
+${answers.usage}
 
-    ##Contribution
-    ${answers.Guidelines}
+##Contribution
+${answers.Guidelines}
 
-    ##Test  
-    ${answers.tests}
+##Test  
+${answers.tests}
 
-    ##License
-    ${answers.License}
+##License
+${answers.License}
 
-    ##Questions 
-    Contact me:
-    GitHub username: ${answers.username}
-    Email: ${answers.email}`
+##Questions 
+Contact me:
+GitHub username: ${answers.username}
+Email: ${answers.email}`
 }
 
 

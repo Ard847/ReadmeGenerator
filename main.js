@@ -54,34 +54,34 @@ inquirer.prompt([{
 
 const generate = (answers) => {
     return `
-#Project title: ${answers.title}
+# Project title: ${answers.title}
  
 ## Description
 ${answers.description}
 
-##Table of contents
+## Table of contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#Contribution)
 * [Test](#Test)
 * [License](#license)
 
-##installation 
+## Installation 
 ${answers.instructions}
 
-##Usage  
+## Usage  
 ${answers.usage}
 
-##Contribution
+## Contribution
 ${answers.Guidelines}
 
-##Test  
+## Test  
 ${answers.tests}
 
-##License
+## License
 ${answers.License}
 
-##Questions 
+## Questions 
 Contact me:
 GitHub username: ${answers.username}
 Email: ${answers.email}`
